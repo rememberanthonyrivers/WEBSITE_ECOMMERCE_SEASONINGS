@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../stock page images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "spices_project"
+	}
+}

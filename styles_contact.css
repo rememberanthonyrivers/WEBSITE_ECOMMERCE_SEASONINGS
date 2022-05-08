@@ -1,0 +1,146 @@
+*{
+    font-family: "Courier New", Courier, Monaco;
+    /* font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; */
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: tan;
+    background-color: black;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , gray);
+}
+h3{
+    text-align: center;
+}
+/* below is the styling for my nav bar */
+.nav{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+    color: rgb(255, 255, 255);
+}
+.nav_child{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: black;
+}
+.nav_greeting_parent{
+    width: 100%;
+}
+#nav_greeting{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 80px;
+    width: 100%;
+    color: tan;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: tan;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+#inventory_button:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+#inventory_button:visited {
+    color: tan;
+    background-color: transparent;
+    text-decoration: none;
+}
+#inventory_button:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* below is the styling for the greeting  */
+.nav_greeting_parent{
+    width: 100%;
+}
+#nav_greeting{
+    font-size: 15px;
+    text-align: center; 
+    width: 100%;
+    color: tan;
+}
+/* below is the styling for the main content container */
+.main_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* styling for the left img */
+#left_img{
+    width: 300px;
+}
+/* below is the styling for the form */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+input[type=submit]:hover {
+    background-color: #45a049;
+}  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/* styling for an empty box above the end strip lies below  */
+.empty_box{
+    width: 100%;
+    height: 50px;
+}
+/* now for the end footer strip with my brief information */
+.footer_end_strip_parent{
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: tan;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* styling for bottom strip where name is  */
+#footer_name{
+    font-size: 20px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}

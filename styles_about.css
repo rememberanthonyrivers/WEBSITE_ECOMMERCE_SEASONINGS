@@ -1,0 +1,115 @@
+*{
+    font-family: "Courier New", Courier, Monaco;
+    /* font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; */
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: tan;
+    background-color: rgba(0, 0, 0, 0.562); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, gray, black);
+}
+/* below is the styling for my nav bar */
+.nav{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; 
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+    color: rgb(255, 255, 255);
+}
+.nav_child{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.nav_greeting_parent{
+    width: 100%;
+}
+#nav_greeting{
+    font-size: 15px;
+    text-align: center; 
+    width: 100%;
+    color: tan;
+    padding-top: 100px;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: tan;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+#inventory_button:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+#inventory_button:visited {
+    color: tan;
+    background-color: transparent;
+    text-decoration: none;
+}
+#inventory_button:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* below lies the styling for the two main imgs */
+.two_pics{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 125px;
+    width: auto;
+    height: 100%;
+}
+/* below lies the styling for the small intro */
+.about_box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 210px;
+    width: auto;
+    height: 100%;
+}
+.about_intro{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 350px;
+}
+/* styling for little italy img */
+.ny_img{
+    display: flex;
+    justify-content: center;
+}
+#italy{
+    padding-bottom: 200px;
+}
+/* now for the end footer strip styling with my brief information */
+.footer_end_strip_parent{
+    display: flex;
+    width: 100%;
+    color: tan;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer_end_strip_parent > a{
+    justify-content: space-between;
+    width: 100%;
+}
+#footer_name{
+    font-size: 20px;
+}
